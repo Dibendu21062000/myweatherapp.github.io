@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p14.css">
+    <script src="https://kit.fontawesome.com/e73faf0a36.js" crossorigin="anonymous"></script>
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="outbox">
+        <header>
+            <a><i class="fa-solid fa-arrow-left"></i> Weather App</a>
+        </header>
+        <div class="inputpart">
+            <p class="infotext">Please Enter a valid city name</p>
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <div class="separator"></div>
+            <button>Get Device Location</button>
+        </div>
+
+        <div class="weatherpart">
+            <img src="#" alt="weather-icon">
+            <div class="temp">
+                <!-- <span class="number">_</span>
+                <span class="deg">°C</span> -->
+                <div class="number">_</div>
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <!-- <i class="fa-solid fa-location-dot"></i> -->
+                <!-- <span>Kathmandu, Nepal</span> -->
+                <div class="locicon"><a><i class="fa-solid fa-location-dot"></i></a></div>
+                <div class="place"><a>_, _</a></div>
+            </div>
+            <div class="condition">
+                <div class="feels">
+                    <div class="iconbaro"><i class="fa-solid fa-temperature-half"></i></div>
+                    <div class="part1">
+                        <div class="temp1">
+                            <div class="number2">_</div>
+                            <!-- <span class="deg">°C</span> -->
+                        </div>
+                        <div><a>Feels Like</a></div>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <div class="iconhumi"><i class="fa-solid fa-droplet"></i></div>
+                    <div class="part2">
+                        <div class="humid">
+                            <div class="number3">_</div>
+                        </div>
+                        <div><a>Humidity</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="p14.js"></script>
+
+</body>
+
+</html>
